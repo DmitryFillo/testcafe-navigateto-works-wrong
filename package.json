@@ -1,0 +1,15 @@
+{
+  "name": "testcafe-navigateto-works-wrong",
+  "scripts": {
+    "test": "testcafe \"chrome:headless\" tests/*.spec.js",
+    "test:response-time-affects-navigate-to": "testcafe \"chrome:headless\" tests/responseTimeAffectsNavigateTo.spec.js",
+    "test:fails-if-server-returns-only-string": "testcafe \"chrome:headless\" tests/failsIfServerReturnsOnlyString.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryFillo/testcafe-navigateto-works-wrong.git"
+  },
+  "dependencies": {
+    "testcafe": "0.18.4"
+  }
+}
